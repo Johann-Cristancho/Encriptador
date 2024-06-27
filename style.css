@@ -158,6 +158,7 @@
     .btn-desencriptar {
         width: 48%;
         border-radius: 16px;
+        font-size: 0.8rem;
     }
 
     .btn-encriptar:hover,
