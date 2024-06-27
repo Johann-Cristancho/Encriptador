@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <p>
+            Encriptador de texto
+        </p>
+    </header>
+    <main>
+        <div class="container">
+
+            <textarea id="texto" class="texto" placeholder="Ingrese texto aqui" max=" 100" rows="10"
+                cols="30"></textarea>
+
+
+
+
+            <div class=" condiciones">
+                <p>Solo letras minusculas y sin acentos</p>
+            </div>
+
+            <div class="botones ">
+                <button class="btn-encriptar" onclick="encriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+
+            <div class="resultado">
+
+                <p id="parrafo">Ningun mensaje fue encontrado</p>
+
+            </div>
+    </main>
+
+    <footer class="footer">
+        <p>desarrollado por Johann Cristancho</p>
+    </footer>
+
+    </div>
+
+</body>
+<script src="main.js">
+</script>
+
+</html>
