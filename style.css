@@ -131,11 +131,16 @@
     }
 
 
+    .header {
+        font-size: 1rem;
+    }
+
     .texto {
         width: 80%;
         height: 60%;
         left: 10%;
         top: 5%;
+        font-size: 0.8rem;
     }
 
     .condiciones {
@@ -173,6 +178,11 @@
         height: 15%;
         left: 10%;
         top: 80%;
+        font-size: 0.8rem;
+    }
+
+    .footer {
+        font-size: 1rem;
     }
 
 
