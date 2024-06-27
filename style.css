@@ -146,11 +146,12 @@
     .condiciones {
         width: 80%;
         left: 10%;
-        top: 67%;
+        top: 65%;
+        height: 5%;
     }
 
     .condiciones p {
-        font-size: 16px;
+        font-size: 0.8rem;
     }
 
     .botones {
